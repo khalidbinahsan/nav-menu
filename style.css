@@ -249,6 +249,31 @@ body {
     z-index: 1;
 }
 
+.image-box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.931);
+    z-index: 5;
+    animation: k_slide_left .5s forwards;
+    -webkit-animation: k_slide_left .5s forwards;
+}
+
+
+/* Image Box Animation  */
+
+@keyframes k_slide_left {
+    from {
+        width: 65%;
+    }
+    to {
+        width: 0%;
+    }
+}
+
 .profile-box img {
     width: 100%;
     height: auto;

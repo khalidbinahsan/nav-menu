@@ -1,3 +1,4 @@
+// Navigator Menu 
 const nav_slider = () => {
     const hamburger = document.querySelector('.hamburger');
     const menu_nav = document.querySelector('.menu-nav');
@@ -11,3 +12,4 @@ const nav_slider = () => {
     });
 }
 nav_slider();
+// Scroll Effect Animation
