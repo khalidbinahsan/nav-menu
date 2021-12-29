@@ -12,4 +12,5 @@ const nav_slider = () => {
     });
 }
 nav_slider();
-// Scroll Effect Animation
+// Scroll Effect Animation by AOS
+AOS.init({});
